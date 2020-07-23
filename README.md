@@ -1,9 +1,8 @@
-# Newsletter-nodejs
-Newsletter Nodejs Web App
-
-# Tecs
+# Newsletter-signup
 * Bootstrap 4.5
-* NodeJs (express, body-parser, request, mailchimp API)
+* Nodejs (modules: express, body-parser, request)
+* Mailchimp API 
+* Deploy on heroku server
 
-### Need fix [mobile viewport]
-* Need apply mobile first concept
+## Need to fix mobile view port 
+* Set mobile first concept

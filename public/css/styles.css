@@ -1,0 +1,137 @@
+body {
+  background-color: #58acfa;
+}
+
+.caixa {
+  margin: 10% auto;
+  width: 800px;
+  height: 500px;
+  border-radius: 20px;
+  /* flex-direction: center;
+    justify-content: center; */
+  background-image: url("../img/background.svg");
+  
+}
+
+h4 {
+  font-family: "Ubuntu", sans-serif;
+  letter-spacing: 2px;
+}
+
+.display-4 {
+  padding-top: 4%;
+  padding-left: 2%;
+  letter-spacing: 2px;
+  font-family: "Lobster", cursive;
+  font-size: 1.5rem;
+}
+
+.display-2 {
+  float: left;
+  margin-top: 8%;
+  margin-left: 2%;
+  letter-spacing: 2px;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.2rem;
+}
+
+.imagem {
+  margin-top: 60px;
+  margin-right: 20%;
+  margin-left: 6%;
+  width: 14%;
+}
+
+.rodape {
+  margin-top: 14.5%;
+  margin-left: 5.5%;
+  font-family: "Ubuntu", sans-serif;
+  color: rgb(58, 58, 58);
+  float: left;
+  font-size: 14px;
+}
+
+.formulario {
+  margin-top: 30px;
+  margin-right: 190px;
+  float: right;
+}
+
+.titulo {
+  margin-bottom: 10px;
+  color: crimson;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.5rem;
+}
+
+
+/* MEDIA QUERY */
+
+@media (max-width:750px){
+
+  .caixa{
+    background-image: none;
+    background-color: rgb(255, 194, 80) ;
+
+    margin: 10% auto;
+    width: 500px;
+    height: 350px;
+    border-radius: 20px;
+    /* flex-direction: center;
+      justify-content: center; */
+    /* background-color:rgb(255, 194, 80) ; */
+  }
+
+  h4 {
+    font-family: "Ubuntu", sans-serif;
+    letter-spacing: 2px;
+  }
+  
+  .display-4 {
+    padding-top: 4%;
+    padding-left: 2%;
+    letter-spacing: 2px;
+    font-family: "Lobster", cursive;
+    font-size: 20px;
+  }
+  
+  .display-2 {
+    
+    margin-top: 8%;
+    margin-left: 2%;
+    letter-spacing: 2px;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 1rem;
+  }
+  
+  .imagem {
+    margin-top: 20px;
+    margin-right: 20%;
+    margin-left: 6%;
+    width: 14%;
+  }
+  
+  .rodape {
+    margin-top: 18.5%;
+    margin-left: 5.5%;
+    font-family: "Ubuntu", sans-serif;
+    color: rgb(58, 58, 58);
+    font-size: 10px;
+  }
+  
+  .formulario {
+    margin-top: 10px;
+    margin-right: 60px;
+  }
+  
+  .titulo {
+    margin-bottom: 10px;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 1.5rem;
+  }
+
+  .form-control{
+    width: 70%;
+  }
+
+}
