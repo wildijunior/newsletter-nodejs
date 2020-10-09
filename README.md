@@ -8,4 +8,4 @@
 * Set mobile first concept
 
 # Link 
-https://guarded-stream-08274.herokuapp.com/
+https://wjr-newsletter.herokuapp.com/
