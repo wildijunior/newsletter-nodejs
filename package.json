@@ -1,16 +1,17 @@
 {
-  "name": "newsletter-signup",
+  "name": "newletter-signup",
   "version": "1.0.0",
-  "description": "Sign up newsletter web app nodejs express mailchimp app post ",
-  "main": "app.js",
+  "description": "Newsletter Signup with mailchimp API",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon src/app.js"
   },
+  "type": "module",
   "author": "Wildi Jr",
   "license": "ISC",
   "dependencies": {
+    "@mailchimp/mailchimp_marketing": "^3.0.27",
     "body-parser": "^1.19.0",
-    "express": "^4.17.1",
-    "request": "^2.88.2"
+    "ejs": "^3.1.5",
+    "express": "^4.17.1"
   }
 }

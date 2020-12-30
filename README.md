@@ -1,11 +1,14 @@
-# Newsletter-signup
-* Bootstrap 4.5
-* Nodejs (modules: express, body-parser, request)
-* Mailchimp API 
-* Deploy on heroku server
+# NEWSLETTER APP
 
-## Need to fix mobile view port 
-* Set mobile first concept
+* NodeJS
+* ExpressJS
+* EJS
+* Body-Parser
+* Mailchimp API
+* MVC Concept
 
-# Link 
+#### Author
+Wildi Jr
+
+#### LINK
 https://wjr-newsletter.herokuapp.com/

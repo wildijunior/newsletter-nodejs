@@ -1,0 +1,22 @@
+<%- include('./layouts/header'); -%>
+
+    <main class="login form-signin">
+        <form action="/" method="post">
+            <!-- IMG -->
+            <img src="https://img.icons8.com/dusk/100/000000/gmail-login.png" />
+
+            <h1 class="h3 mb-3 fw-normal">Sign Up</h1>
+
+            <input type="text" name="nome" class="form-control top" placeholder="Nome" required autofocus>
+            <input type="text" name="sobrenome" class="form-control middle" placeholder="Sobrenome" required autofocus>
+            <input type="email" name="inputEmail" class="form-control bottom" placeholder="Email" required autofocus>
+
+            <button class="w-100 btn btn-lg btn-success" type="submit">Sign up</button>
+
+            <!-- FOOTER YEAR -->
+            <p class="mt-5 mb-3 text-muted">&copy; <%= new Date().getFullYear() %> - Wildi Jr 💻
+            </p>
+        </form>
+    </main>
+
+    <%- include('./layouts/footer'); -%>
